@@ -1,0 +1,302 @@
+body {
+    background: url(../img/leblebi.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;     
+    text-align: center;
+    }
+div#ww_9be6338b4bd25{
+    position: relative;
+    top: 50px;
+    right:0px;
+}
+div#sliderim{
+    position: relative;
+    top: 60px;
+    right:0px;
+}
+div.card{
+    position: relative;
+    top: 70px;
+    right:-10px;
+}
+h1.yemeklerh{
+    position: relative;
+    top: 70px;
+
+
+    font-size: 90px;
+    font-weight: 600;
+    font-family: 'Niconne', cursive;
+    color: #e0d6e9;
+    text-shadow: 2px 2px 0px  #957dad,
+                 4px 4px 0px #ee4b2b,
+                 6px 6px 0px #00c2cb,
+                 8px 8px 0px #ff7f50,
+                 10px 10px 0px #553c9a;
+}
+.col{
+    position: relative;
+    width: 49;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+.containerekip {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 40px 0;
+}
+
+.containerekip .card {
+	position: relative;
+	width: 300px;
+	height: 400px;
+	background: rgba(255, 255, 255, 0.05);
+	margin: 20px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px);
+}
+
+.containerekip .card .content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s;
+}
+
+.containerekip .card:hover .content {
+	transform: translateY(-20px);
+}
+
+.containerekip .card .content .imgBx {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.containerekip .card .content .imgBx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.containerekip .card .content .contentBx h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+}
+
+.containerekip .card .content .contentBx h3 span {
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: initial;
+}
+
+.containerekip .card .sci {
+	position: absolute;
+	bottom: 50px;
+	display: flex;
+}
+
+.containerekip .card .sci li {
+	list-style: none;
+	margin: 0 10px;
+	transform: translateY(40px);
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.containerekip .card:hover .sci li {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+.containerekip .card .sci li a {
+	color: #fff;
+	font-size: 20px;
+}
+/*ne alınır*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+*{
+  box-sizing: border-box;
+}
+
+
+.nealinircards {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    max-width: 1120px;
+    margin: 50px;
+    padding: 10px;
+    height: 500px;
+}
+
+.card--1 .card__img, .card--1 .card__img--hover {
+    background-image: url('../img/nealinir/Leblebi.jpg');
+}
+
+.card--2 .card__img, .card--2 .card__img--hover {
+    background-image: url('../img/nealinir/osmancikpirinci.jpg');
+}
+.card--2 .card__img, .card--3 .card__img--hover {
+    background-image: url('../img/nealinir/ahsap.png');
+}
+.card--2 .card__img, .card--4 .card__img--hover {
+    background-image: url('../img/nealinir/bakirpng.png');
+}
+
+
+.card__img {
+  visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 235px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+  
+}
+
+.card__info-hover {
+    position: absolute;
+    padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+}
+
+.card__img--hover {
+  transition: 0.2s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  position: absolute;
+    height: 235px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+top: 0;
+  
+}
+.nealinircard {
+  margin-right: 25px;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+    width: 33.3%;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+}
+.nealinircard:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+    transform: scale(1.10, 1.10);
+}
+
+.card__info {
+z-index: 2;
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+   padding: 16px 24px 24px 24px;
+}
+
+.card__category {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+  color: #868686;
+}
+
+.card__title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.card__by {
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.card__author {
+    font-weight: 600;
+    text-decoration: none;
+    color: #AD7D52;
+}
+
+.nealinircard:hover .card__img--hover {
+    height: 100%;
+    opacity: 0.3;
+}
+
+.nealinircard:hover .card__info {
+    background-color: transparent;
+    position: relative;
+}
+
+.nealinircard:hover .card__info-hover {
+    opacity: 1;
+}
+/*ne alınır*/
+/*hakkında*/
+
+.hakkinda {
+  background: #212529;
+  color: #fff;
+}
+/*iletişim*/
+.iletisim-form {     
+  width: 450px;
+  min-height: 500px;
+  height: auto;
+  border-radius: 5px;
+  margin: 7% auto;
+  box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+  padding: 2%;
+  background:url("../img/login.jpg");
+  background-size: 100%;         
+  }
+  #yukari{
+    display:scroll;position:fixed; bottom:20px; right:5px;
+  }
+  .iletisim-form-table{
+    margin: 25%;
+  }

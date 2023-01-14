@@ -1,0 +1,121 @@
+<section class="p-5 text-center ekibimiz">
+<div class="container">
+
+    <h2 class="mb-5 font-weight-bold">Ekibimiz</h2>
+    <hr class="simge"><i class="fa-sharp fa-solid fa-code simgepozisyon"></i>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card shadow hoverefekti">
+            <img src="img/batu.jpeg" class="card-img-top" alt="fotoğraf görüntülünemedi">
+            <div class="card-body">
+              <h5 class="card-title">Batuhan Gürsoy</h5>
+              <p class="card-text">Yazılım Test Mühendisi</p>
+            </div>
+            <div class="card-footer">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow hoverefekti">
+            <img src="img/berkan.jpeg" class="card-img-top" alt="fotoğraf görüntülenemedi">
+            <div class="card-body">
+              <h5 class="card-title">Berkan Çelik</h5>
+              <p class="card-text">Mobil Developer </p>
+            </div>
+            <div class="card-footer">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow hoverefekti">
+            <img src="img/musti.jpg" class="card-img-top" alt="fotoğraf görüntülenemedi">
+            <div class="card-body">
+              <h5 class="card-title">Mustafa İkbal Yaşar</h5>
+              <p class="card-text"> Web Programlama </p>
+            </div>
+            <div class="card-footer">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow hoverefekti">
+            <img src="img/hasan.jpg" class="card-img-top" alt="fotoğraf görüntülenemedi">
+            <div class="card-body">
+              <h5 class="card-title">Hasan Saraç</h5>
+              <p class="card-text">Grafik Tasarım </p>
+            </div>
+            <div class="card-footer">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow hoverefekti">
+            <img src="img/halil.jpg" class="card-img-top" alt="fotoğraf görüntülenemedi">
+            <div class="card-body">
+              <h5 class="card-title">Halil Bostan</h5>
+              <p class="card-text">Veri Tabanı Uzmanı </p>
+            </div>
+            <div class="card-footer">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow hoverefekti">
+            <img src="img/mami.jpg" class="card-img-top" alt="fotoğraf görüntülenemedi">
+            <div class="card-body">
+              <h5 class="card-title">Muhammet Çet</h5>
+              <p class="card-text">Şirket Yöneticisi</p>
+            </div>
+            <div class="card-footer">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow hoverefekti">
+            <img src="img/ömer.jpg" class="card-img-top" alt="fotoğraf görüntülenemedi">
+            <div class="card-body">
+              <h5 class="card-title">Ömer Eren Uyar</h5>
+              <p class="card-text">Otomasyon Yapımı </p>
+            </div>
+            <div class="card-footer">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow hoverefekti">
+            <img src="img/kerem.jpg" class="card-img-top" alt="fotoğraf görüntülenemedi">
+            <div class="card-body">
+              <h5 class="card-title">Kerem Erkengel</h5>
+              <p class="card-text">IT Uzmanı </p>
+            </div>
+            <div class="card-footer">
+              
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow hoverefekti">
+            <img src="img/newnuri.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nuri Güney</h5>
+              <p class="card-text">Siber Güvenlik Uzmanı</p>
+            </div>
+            <div class="card-footer">
+                
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+</div>
+
+</section>

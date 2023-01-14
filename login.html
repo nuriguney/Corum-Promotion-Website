@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+
+
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-WJUUqfoMmnfkBLne5uxXj+na/c7sesSJ32gI7GfCk4zO4GthUKhSEGyvQ839BC51" crossorigin="anonymous">
+    <title>Çorum</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
+    <!--Nav başlangıç-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Çorum</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./iletisim.html">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./ekibimiz.html">Hizmet Ekibimiz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./nealinir.html">Ne Alınır?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./hakkinda.html">Çorum Hakkında</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./login.html">Giriş Yap</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Nav bitiş-->
+    <!-- Hava durumu-->
+    <div id="ww_9be6338b4bd25" v='1.3' loc='id'
+        a='{"t":"ticker","lang":"tr","sl_lpl":1,"ids":["wl5754"],"font":"Times","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"rgba(33,37,41,1)","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+        Weather for the Following Location: <a href="https://2ua.org/tur/corum/map/" id="ww_9be6338b4bd25_u"
+            target="_blank">Corum map, Turkey</a></div>
+    <script async src="https://app1.weatherwidget.org/js/?id=ww_9be6338b4bd25"></script>
+    <!-- Hava durumu-->
+
+
+    <div class="overlay">
+        <form id="loginform">
+            <div class="con">
+                <header class="head-form">
+                    <h2>Giriş Yap</h2>
+                    <p class="infom">Sitemizde devam edebilmek için giriş yapınız</p>
+                </header>
+                <br>
+                <div class="field-set">
+                    <span class="input-item">
+                        <i class="fa fa-user-circle"></i>
+                    </span>
+                    <input class="form-input" id="username" type="text" placeholder="@kullanıcıadı" required>
+                    <br>
+                    <span class="input-item">
+                        <i class="fa fa-key"></i>
+                    </span>
+                    <input class="form-input" type="password" placeholder="Şifre" id="pwd" name="password" required>
+                    <br>
+                    <button class="log-in" value="Login" id="loginbuton"> Giriş Yap </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="./js/login.js"></script>
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
